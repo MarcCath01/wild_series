@@ -11,7 +11,7 @@
 
 ###> symfony/phpunit-bridge ###
 .phpunit.result.cache
-/phpunit.xml
+/phpunit.xmlgit remote add origin https://github.com/MarcCath01/wild_series.git
 ###< symfony/phpunit-bridge ###
 
 ###> phpunit/phpunit ###
