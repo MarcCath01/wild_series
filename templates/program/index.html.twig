@@ -1,20 +1,15 @@
-<!doctype html>
+{% extends "base.html.twig" %}
 
-<html lang="en">
 
-	<head>
+{% block title %} 
+    Wild Series
+{% endblock %}
 
-		<meta charset="UTF-8">
+{% block body %}
 
-		<title>Wild Series</title>
+    <h1>{{ website }}</h1>
 
-	</head>
+	<img src="{{ asset('build/mc-logo.png') }}" alt="mc-logo logo">
 
-	<body>
 
-		<h1>{{ website }}
-			index</h1>
-
-	</body>
-
-</html>
+{% endblock %}
