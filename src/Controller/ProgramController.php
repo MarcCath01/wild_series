@@ -7,10 +7,16 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+ /**
+     * @Route("/programs", name="program")
+     */
+
+
+
 class ProgramController extends AbstractController
 {
     /**
-     * @Route("/programs/", name="program_index")
+     * @Route("/", name="program_index")
      */
 
     public function index(): Response
